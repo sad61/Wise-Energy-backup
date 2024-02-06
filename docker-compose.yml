@@ -1,0 +1,21 @@
+services:
+
+  db:
+    image: postgres:15
+    container_name: wise_energy_local
+    volumes:
+      - wise_energy:/var/lib/postgresql/data
+    ports:
+      - "5438:5432"
+    environment:
+      - POSTGRES_USER=wise_energy_local
+      - POSTGRES_PASSWORD=local_dev
+      - POSTGRES_DB=wise_energy_local
+    restart: always
+
+networks:
+  default:
+    name: wise_energy_local
+
+volumes:
+  wise_energy:

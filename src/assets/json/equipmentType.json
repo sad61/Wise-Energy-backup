@@ -1,0 +1,68 @@
+[
+    {
+        "type": "airConditioner",
+        "icon": "air-conditioner",
+        "name": "Air-Conditioner",
+        "lightStyle": {
+            "backgroundColor": ""
+        },
+        "darkStyle": {
+            "backgroundColor": "#00477A"
+        }
+    },
+    {
+        "type": "fridge",
+        "icon": "fridge",
+        "name": "Fridge",
+        "lightStyle": {
+            "backgroundColor": ""
+        },
+        "darkStyle": {
+            "backgroundColor": "#007A6E"
+        }
+    },
+    {
+        "type": "fan",
+        "icon": "fan",
+        "name": "Fan",
+        "lightStyle": {
+            "backgroundColor": ""
+        },
+        "darkStyle": {
+            "backgroundColor": "#265440"
+        }
+    },
+    {
+        "type": "light",
+        "icon": "lightbulb",
+        "name": "Light",
+        "lightStyle": {
+            "backgroundColor": ""
+        },
+        "darkStyle": {
+            "backgroundColor": "#2A3E50"
+        }
+    },
+    {
+        "type": "computer",
+        "icon": "laptop",
+        "name": "Computer",
+        "lightStyle": {
+            "backgroundColor": ""
+        },
+        "darkStyle": {
+            "backgroundColor": "#2D314E"
+        }
+    },
+    {
+        "type": "tv",
+        "icon": "television",
+        "name": "TV",
+        "lightStyle": {
+            "backgroundColor": ""
+        },
+        "darkStyle": {
+            "backgroundColor": "#3F2853"
+        }
+    }
+]
